@@ -1,0 +1,278 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(236, 238, 241);
+    margin: 0;
+}
+
+/* Sign In Top */
+
+#sign-in-container {
+
+  width: 100%;
+  min-width: 380px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#sign-in {
+  font-size: .78em;
+  float: right;
+  text-align: right;
+  margin-right: 25px;
+  line-height: 1.4;
+}
+
+#sign-in p {
+  display: inline-block;
+}
+
+#sign-in a {
+  text-decoration: none;
+}
+
+#sign-in button {
+  position: relative;
+  border-radius: 5px;
+  height: 34px;
+  width: 100px;
+  font-size: 1.1em;
+  border: 1px rgb(68, 68, 68) solid;
+  color: white;
+  background-color: rgb(0, 102, 255);
+  margin-left: 5px;
+  bottom: 9px;
+
+}
+
+.btn-icon {
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+  display: inline-block;
+  height: 15px;
+  width: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/icon-whitelock@3x.png);
+}
+
+/* main logo */
+
+#main-logo {
+  margin: auto;
+  height: 35px;
+  width: 118px;
+  display: block;
+  background-image: url(../images/ecosystem_logos_new.png)
+}
+
+/* container */
+
+#container {
+  margin: auto;
+  padding: 30px;
+  width: 318px;
+  background-color: white;
+  text-align: center;
+  border: 1px rgb(181, 181, 181) solid;
+  border-radius: 2px;
+  margin-bottom: 35px;
+}
+
+#container header {
+  margin-bottom: 20px;
+  width:100%;
+}
+
+#container header div {
+    display: inline-block;
+}
+
+#container header h1 {
+  font-size: 1.5em;
+  font-weight: 100;
+  color: rbg(104, 104, 104);
+}
+
+#container header p {
+  font-size: 0.9em;
+  color: rgb(104, 104, 104)
+}
+
+#container header a {
+  font-size: 0.85em;
+  text-decoration: none;
+}
+
+#container a:hover {
+  text-decoration: underline;
+}
+
+#turbotax {
+    display: inline-block;
+    height: 24px;
+    width: 101px;
+    background-position: 0 27px;
+    background-image: url(../images/ecosystem_logos_new.png);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#quickbooks {
+    display: inline-block;
+    height: 24px;
+    width: 127px;
+    background-position: -114px 27px;
+    background-image: url(../images/ecosystem_logos_new.png);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#mint {
+    display: inline-block;
+    height: 24px;
+    width: 66px;
+    background-position: -253px 27px;
+    background-image: url(../images/ecosystem_logos_new.png);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+/* form */
+form button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  background-color: rgb(0, 119, 197);
+  color: white;
+  font-size: 1em;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgb(68, 68, 68);
+}
+
+form button:hover {
+    background-color: rgb(22, 124, 204);
+}
+
+#container .btn-icon {
+    width; 20px;
+    margin: 0;
+    margin-right: 3px;
+
+}
+
+#pass-lock {
+    position: relative;
+    bottom: 29px;
+    left: 284px;
+    height: 22px;
+    width: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/lock-left-grey@3x.png);
+}
+
+label {
+  font-size: 0.9em;
+  color: rbg)(77,77, 77);
+}
+
+form div {
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+form p {
+  font-size: 0.65em;
+  margin-top: 7px;
+  color: rgb(68, 68, 68);
+}
+
+input {
+  margin-top: 10px;
+  width: 93.1%;
+  height: 30px;
+  border: 1px rgb(187, 187, 187) solid;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1em;
+}
+
+/* container footer */
+#container footer {
+  width: 88%;
+  min-width: 280px;
+  font-style: italic;
+  font-size: 1.0em;
+  line-height: 1.8;
+  margin: auto;
+  margin-top: 44px;
+}
+
+#container footer a {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+}
+
+#container footer p {
+  margin-bottom: 0;
+  color: rgb(175, 175, 175);
+}
+
+/* page footer */
+footer {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  min-width: 380px;
+  max-width: 705px;
+}
+
+.nortonpic {
+  width: 85px;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  font-size: 0.75em;
+  list-style-type: none;
+  height: 17px;
+  padding: 0;
+  text-align: center;
+  margin: auto;
+  width: 149px;
+
+}
+
+footer li {
+  float: left;
+  margin: 0 6px;
+}
+
+footer a {
+  color: rgb(0, 119, 197);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 0.75em;
+  color: rgb(107, 107, 107);
+  margin-top: 5px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+/*
+img replacement
+*/
+.main-logo {
+  display: block;
+  width: 350px;
+  margin: auto;
+}
